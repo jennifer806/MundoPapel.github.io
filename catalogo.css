@@ -120,6 +120,7 @@ nav ul li a:hover {
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    
 }
 
 .btn-primary {
@@ -131,7 +132,13 @@ nav ul li a:hover {
 }
 
 .btn-success {
+    
     background-color: #ffb9c4;
+}
+
+.btn-success {
+    /* ... otros estilos ... */
+    padding: 5px 16px; /* Reduce el padding vertical y horizontal */
 }
 
 .btn-success:hover {
